@@ -14,9 +14,10 @@ PublishGPT is a command-line tool that allows you to create books using the Open
 ## How to use
 
 1. Ensure Python 3.8 or above is installed on your machine.
-2. Install the required packages using `pip install -r requirements.txt`.
-3. Set your OpenAI API key in the `.env` file.
-4. Use the commands provided by the `typer` CLI to create your book. Here are the available commands:
+2. IInstall Poetry, a tool for Python project and dependency management.
+3. Install the required packages using poetry install.
+4. Set your OpenAI API key in the `.env` file.
+5. Use the commands provided by the `typer` CLI to create your book. Here are the available commands:
 
    * `init_config`: Initialize the `config.json` and `.env` files.
    * `create_topics_and_chapters`: Create chapters for your book.
@@ -30,4 +31,4 @@ Please note that the GPT-3 API usage is billed by OpenAI, and significant usage 
 
 ## Future Enhancements
 
-Future versions of this tool will aim to provide better customization options for the generated book and possibly integration with other book publishing services.
+Service will be refactored and pushed to pypi as soon as it is possible.
